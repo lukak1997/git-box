@@ -66,4 +66,64 @@ button {
   .container-one .box-item-two {
     margin: 0;
   }
+}
+
+.container-two {
+  background-image: url(../images/cake.jpg);
+  width: 100%;
+  background-size: cover;
+  color: white;
+  padding: 50px 30px;
+}
+.container-two h4 {
+  margin-top: 60px;
+}
+.container-two h1 {
+  margin-top: 40px;
+}
+@media screen and (min-width: 844px) {
+  .container-two h1 {
+    font-size: 60px;
+  }
+}
+.container-two p {
+  margin-top: 40px;
+}
+.container-two .box-wraper {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (min-width: 440px) {
+  .container-two .box-wraper {
+    flex-direction: row;
+  }
+}
+.container-two .box-wraper button:first-of-type {
+  width: 130px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.container-two .box-wraper button:first-of-type:hover {
+  background-color: red;
+  border: none;
+}
+.container-two .box-wraper button:last-of-type {
+  width: 130px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.container-two .box-wraper button:last-of-type:hover {
+  background-color: black;
+  border: 1px solid white;
 }/*# sourceMappingURL=style.css.map */
